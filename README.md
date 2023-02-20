@@ -1,0 +1,6 @@
+The immune-related gene (IRGs) for 28 human immune cell subpopulations were obtained from Pornpimol et al.’s study[1], and mapped to their mouse orthologs using the mapping files provided by MGI (http://www.informatics.jax.org/downloads/reports/HOM_MouseHumanSequence.rpt). The DESeq2[2] was used to perform the differential expression analysis between the C and M samples, and the genes were ranked according to the fold change. Gene Set Enrichment Analysis (GSEA) was carried out to evaluated the associations of immune pathways with the immune-related risk score using the GSEA function in R package “GSVA”[3, 4]. 
+
+[1].	Charoentong, P., et al., Pan-cancer Immunogenomic Analyses Reveal Genotype-Immunophenotype Relationships and Predictors of Response to Checkpoint Blockade. Cell Reports, 2017. 18(1): p. 248-262.
+[2].	Love, M.I., W. Huber, and S. Anders, Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biology, 2014. 15(12).
+[3].	Shi, J. and M.G. Walker, Gene set enrichment analysis (GSEA) for interpreting gene expression profiles. Current Bioinformatics, 2007. 2(2): p. 133-137.
+[4].	Hanzelmann, S., R. Castelo, and J. Guinney, GSVA: gene set variation analysis for microarray and RNA-Seq data. Bmc Bioinformatics, 2013. 14.
